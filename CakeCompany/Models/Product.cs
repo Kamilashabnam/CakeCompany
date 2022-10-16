@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CakeCompany.Models
+{
+    public class Product
+    {
+        public Guid Id { get; set; }
+        public Cake Cake { get; set; }
+        public double Quantity { get; set; }
+        
+    }
+}
